@@ -1,5 +1,9 @@
 #include <stdio.h>
-/*Entry Point*/
+/**
+ * main - Prints a string
+ *
+ * Return: Returns 0 if successful
+ */
 int main(void) 
 {
 	puts("\"Programming is like building a multilingual puzzle");
