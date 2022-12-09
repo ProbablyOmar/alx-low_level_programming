@@ -10,6 +10,6 @@ int main(void)
 
 			Size of a long long int: %d byte(s)
 
-			Size of a float: %d byte(s)", sizeof(char), sizeof(int), sizeof(long), sizeof(long long), sizeof(float))
+			Size of a float: %d byte(s)", sizeof(char), sizeof(int), sizeof(long), sizeof(long long), sizeof(float));
 	return(0)
 }
