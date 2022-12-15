@@ -20,16 +20,17 @@ void times_table(void)
 			x = i * j;
 			tens = x / 10;
 			units = x % 10;
-			if (tens)
-				_putchar('0' + tens);
-			_putchar('0' + units);
-			if (j != 9)
+			if (j != 0)
 			{
 				_putchar(',');
 				if (x < 10)
 					_putchar(' ');
 				_putchar(' ');
-			}
+
+			if (tens)
+				_putchar('0' + tens);
+			_putchar('0' + units);
+			
 
 		}
 		_putchar('\n');
