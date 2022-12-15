@@ -31,7 +31,7 @@ void times_table(void)
 			if (tens)
 				_putchar('0' + tens);
 			_putchar('0' + units);
-			
+
 
 		}
 		_putchar('\n');
