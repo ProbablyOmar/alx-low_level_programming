@@ -18,7 +18,7 @@ void times_table(void)
 		for (j = 0; j < 10; j++)
 		{
 			x = i * j;
-			tens = x % 100;
+			tens = x / 100;
 			units = x % 10;
 			_putchar('0' + tens);
 			_putchar('0' + units);
