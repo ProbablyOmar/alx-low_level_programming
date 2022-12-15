@@ -26,7 +26,8 @@ void times_table(void)
 			if (j != 9)
 			{
 				_putchar(',');
-				_putchar(' ');
+				if (!tens)
+					_putchar(' ');
 				_putchar(' ');
 			}
 
