@@ -38,7 +38,7 @@ int main(void)
 
 
 
-	f("Infinite loop avoided! \\o/\n");
+	printf("Infinite loop avoided! \\o/\n");
 
 
 
