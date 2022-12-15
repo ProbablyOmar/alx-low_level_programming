@@ -1,7 +1,7 @@
 /**
  * _islower - determines if character is lowercase or not
+ * @c: character to be evaluated
  *
- * *args letter letter to be evaluated
  * Return: True of lowercase letter false otherwise
  */
 int  _islower(int c)
