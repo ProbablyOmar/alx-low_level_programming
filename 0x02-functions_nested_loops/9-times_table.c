@@ -26,6 +26,7 @@ void times_table(void)
 				if (x < 10)
 					_putchar(' ');
 				_putchar(' ');
+			}
 
 			if (tens)
 				_putchar('0' + tens);
