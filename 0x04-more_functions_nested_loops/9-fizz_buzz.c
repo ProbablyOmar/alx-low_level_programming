@@ -13,13 +13,15 @@ int main(void)
 	for (i = 1; i <= 100; i++)
 	{
 		if (!(i % 15))
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 		else if (!(i % 3))
 			printf("Fizz ");
 		else if (!(i % 5))
-			printf("Buzz ");
+			printf("Buzz");
 		else
-			printf("%d ", i);
+			printf("%d", i);
+		if (i != 100)
+			printf(" ");
 	}
 
 	return (0);
