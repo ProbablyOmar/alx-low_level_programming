@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_number - Prints number to the console
@@ -9,18 +10,22 @@
 
 void print_number(int n)
 {
-	if (n)
+	if (n < 0)
 	{
-		int x = n % 10;
-
-		n /= 10;
-		print_number(n);
-		if (x < 0)
-		{
-			x = -x;
-			if (!n)
-				_putchar('-');
-		}
-		_putchar('0' + x);
+		n = -n;
+		putchar('-');
 	}
+
+	if (n / 10)
+	{
+		print_number(n / 10);
+	}
+	putchar('0' + n % 10);
+}
+
+int main(void)
+{
+	print_number(0);
+
+	return 0;
 }
