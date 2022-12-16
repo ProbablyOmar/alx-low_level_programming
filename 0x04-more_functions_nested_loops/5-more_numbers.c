@@ -2,6 +2,8 @@
 
 /**
  * more_numbers - Prints numbers from 0 to 14
+ *
+ * Return: Void
  */
 
 void more_numbers(void)
@@ -9,22 +11,20 @@ void more_numbers(void)
 	int tens;
 	int units;
 	int i;
+	int _;
 
-	for (i = 0; i < 15; i++)
+	for (_ = 0; _ < 10; _++)
 	{
-		if (i > 9)
+		for (i = 0; i < 15; i++)
 		{
-			tens = i / 10;
-			_putchar('0' + tens);
+			if (i > 9)
+			{
+				tens = i / 10;
+				_putchar('0' + tens);
+			}
+			units = i % 10;
+			_putchar('0' + units);
 		}
-		units = i % 10;
-		_putchar('0' + units);
+		_putchar('\n');
 	}
-	_putchar('\n');
-}
-
-int main(void)
-{
-	more_numbers();
-	return 0;
 }
