@@ -3,9 +3,9 @@
 /**
  * print_diagonal - Prints a diagonal in the console
  * @n: Length of the diagonal
- * 
+ *
  * Return: void
-*/
+ */
 
 void print_diagonal(int n)
 {

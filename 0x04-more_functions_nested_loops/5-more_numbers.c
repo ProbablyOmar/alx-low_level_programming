@@ -2,7 +2,7 @@
 
 /**
  * more_numbers - Prints numbers from 0 to 14
-*/
+ */
 
 void more_numbers(void)
 {
@@ -21,4 +21,10 @@ void more_numbers(void)
 		_putchar('0' + units);
 	}
 	_putchar('\n');
+}
+
+int main(void)
+{
+	more_numbers();
+	return 0;
 }
