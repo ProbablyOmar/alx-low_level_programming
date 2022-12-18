@@ -11,12 +11,12 @@ int main(void)
 	int i = 1;
 	int j = 2;
 	int _;
-	int temp;
 
 	printf("1, 2, ");
 	for (_ = 0; _ < 48; _++)
 	{
-		temp = i;
+		int temp = i;
+
 		i = j + i;
 		j = i;
 		printf("%d", i);
