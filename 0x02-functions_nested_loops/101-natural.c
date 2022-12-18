@@ -4,7 +4,7 @@
  * main - Prints sum of multiples of 5 or 3
  *
  * Return: Always 0
-*/
+ */
 
 int main(void)
 {
@@ -17,4 +17,5 @@ int main(void)
 			sum += i;
 	}
 	printf("%d\n", sum);
+	return (0);
 }
