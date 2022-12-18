@@ -19,7 +19,7 @@ int main(void)
 		temp = i;
 		i = j + i;
 		j = temp;
-		printf("%d", i);
+		printf("%u", i);
 		if (_ != 47)
 			printf(", ");
 	}
