@@ -4,7 +4,7 @@
  * main - Prints fibbonaci numbers
  *
  * Return: Always 0
-*/
+ */
 
 int main(void)
 {
@@ -24,4 +24,5 @@ int main(void)
 			printf(", ");
 	}
 	printf("\n");
+	return (0);
 }
