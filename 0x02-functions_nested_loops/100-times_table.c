@@ -33,8 +33,3 @@ void print_times_table(int n)
 		printf("\n");
 	}
 }
-
-int main(void)
-{
-	print_times_table(2);
-}
