@@ -8,17 +8,17 @@
 
 int main(void)
 {
-	int i = 1;
-	int j = 2;
+	long long i = 2;
+	long long j = 1;
 	int _;
+	long long temp;
 
 	printf("1, 2, ");
 	for (_ = 0; _ < 48; _++)
 	{
-		int temp = i;
-
+		temp = i;
 		i = j + i;
-		j = i;
+		j = temp;
 		printf("%d", i);
 		if (_ != 47)
 			printf(", ");
