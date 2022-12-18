@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	int i = 2;
-	int j = 1;
+	long i = 2;
+	long j = 1;
 	int _;
 	int temp;
 
