@@ -6,7 +6,7 @@
  *
  * Return: void
  */
-void times_table(int n)
+void print_times_table(int n)
 {
 	int i;
 	int j;
@@ -32,8 +32,6 @@ void times_table(int n)
 			if (tens)
 				_putchar('0' + tens);
 			_putchar('0' + units);
-
-
 		}
 		_putchar('\n');
 	}
