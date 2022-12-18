@@ -10,7 +10,6 @@ int main(void)
 {
 	unsigned long i = 2;
 	unsigned long j = 1;
-	int _;
 	unsigned long temp;
 	unsigned long sum = 0;
 
