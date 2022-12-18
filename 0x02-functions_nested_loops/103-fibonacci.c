@@ -14,8 +14,7 @@ int main(void)
 	unsigned long temp;
 	unsigned long sum = 0;
 
-	printf("1, 2, ");
-	for (_ = 0; _ < 48; _++)
+	while (i < 4000000)
 	{
 		temp = i;
 		i = j + i;
