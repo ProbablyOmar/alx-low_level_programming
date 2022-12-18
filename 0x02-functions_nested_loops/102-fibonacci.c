@@ -8,10 +8,10 @@
 
 int main(void)
 {
-	unsigned int i = 2;
-	unsigned int j = 1;
+	unsigned long i = 2;
+	unsigned long j = 1;
 	int _;
-	unsigned int temp;
+	unsigned long temp;
 
 	printf("1, 2, ");
 	for (_ = 0; _ < 48; _++)
@@ -19,7 +19,7 @@ int main(void)
 		temp = i;
 		i = j + i;
 		j = temp;
-		printf("%u", i);
+		printf("%lu", i);
 		if (_ != 47)
 			printf(", ");
 	}
