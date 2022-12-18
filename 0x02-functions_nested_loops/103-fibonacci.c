@@ -11,7 +11,7 @@ int main(void)
 	unsigned long i = 2;
 	unsigned long j = 1;
 	unsigned long temp;
-	unsigned long sum = 0;
+	unsigned long sum = 2;
 
 	while (i < 4000000)
 	{
