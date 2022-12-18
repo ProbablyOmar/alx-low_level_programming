@@ -12,6 +12,7 @@ int main(void)
 	unsigned long j = 1;
 	int _;
 	unsigned long temp;
+	unsigned long sum = 0;
 
 	printf("1, 2, ");
 	for (_ = 0; _ < 48; _++)
@@ -20,10 +21,8 @@ int main(void)
 		i = j + i;
 		j = temp;
 		if (!(i % 2))
-			printf("%lu", i);
-		if (_ != 47)
-			printf(", ");
+			sum += i;
 	}
-	printf("\n");
+	printf("%lu\n", sum);
 	return (0);
 }
