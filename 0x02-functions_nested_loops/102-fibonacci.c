@@ -8,10 +8,10 @@
 
 int main(void)
 {
-	long long i = 2;
-	long long j = 1;
+	int i = 2;
+	int j = 1;
 	int _;
-	long long temp;
+	int temp;
 
 	printf("1, 2, ");
 	for (_ = 0; _ < 48; _++)
