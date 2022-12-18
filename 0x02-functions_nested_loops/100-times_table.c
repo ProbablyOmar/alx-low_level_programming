@@ -28,7 +28,13 @@ void print_times_table(int n)
 				putchar(' ');
 			}
 
-			printf("%d\n", x);
+			printf("%d", x);
 		}
+		printf("\n");
 	}
+}
+
+int main(void)
+{
+	print_times_table(2);
 }
