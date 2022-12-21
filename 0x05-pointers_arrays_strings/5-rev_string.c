@@ -3,7 +3,7 @@
  * @s: Pointer on a string
  *
  * Return: Void
-*/
+ */
 
 void rev_string(char *s)
 {
@@ -11,7 +11,7 @@ void rev_string(char *s)
 	{
 		char *start = s;
 		char temp;
-		
+
 		while (*(s) != '\0')
 		{
 			s++;
@@ -28,6 +28,5 @@ void rev_string(char *s)
 				s--;
 			}
 		}
-
 	}
 }
