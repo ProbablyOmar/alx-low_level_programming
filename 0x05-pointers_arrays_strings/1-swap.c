@@ -1,10 +1,10 @@
 /**
- * 1-swap - Swaps values of two variables
+ * 1-swap_int - Swaps values of two variables
  * @a: First variable
  * @b: Second variable
  *
  * Return: Void
-*/
+ */
 
 void swap_int(int *a, int *b)
 {
