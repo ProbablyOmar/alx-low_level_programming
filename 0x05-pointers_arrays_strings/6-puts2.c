@@ -16,6 +16,7 @@ void puts2(char *str)
 		if (!(flag % 2))
 			_putchar(*str);
 		str++;
+		flag++;
 	}
 	_putchar('\n');
 }
