@@ -5,7 +5,7 @@
  * @s: Pointer to String
  *
  * Return: Void
-*/
+ */
 
 void print_rev(char *s)
 {
@@ -16,7 +16,7 @@ void print_rev(char *s)
 		s++;
 	}
 
-	while((s + 1) != start)
+	while ((s + 1) != start)
 	{
 		_putchar(*s);
 		s--;
