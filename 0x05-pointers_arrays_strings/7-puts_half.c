@@ -19,7 +19,7 @@ void puts_half(char *str)
 	}
 
 	if (count % 2)
-		ptr += (count - 1) / 2;
+		ptr += (count - 2) / 2;
 	else
 		ptr += count / 2;
 
