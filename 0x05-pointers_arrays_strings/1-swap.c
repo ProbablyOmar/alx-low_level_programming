@@ -1,5 +1,5 @@
 /**
- * 1-swap_int - Swaps values of two variables
+ * swap_int - Swaps values of two variables
  * @a: First variable
  * @b: Second variable
  *
