@@ -3,9 +3,9 @@
  * @s: Pointer to string
  *
  * Return: Length of string
-*/
+ */
 
 int _strlen(char *s)
 {
-	return (sizeof(s)/sizeof(char));
+	return (sizeof(*s) / sizeof(char));
 }
