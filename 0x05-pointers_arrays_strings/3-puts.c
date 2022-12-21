@@ -5,7 +5,7 @@
  * @str: ptr to string to be printed
  *
  * Return: void
-*/
+ */
 
 void _puts(char *str)
 {
