@@ -18,7 +18,8 @@ void puts_half(char *str)
 		count++;
 		str++;
 	}
-	for (i = 0; i < count / 2 && *ptr != '\0'; i++)
+	ptr += count / 2;
+	while (*ptr != '\0')
 	{
 		_putchar(*ptr);
 		ptr++;
