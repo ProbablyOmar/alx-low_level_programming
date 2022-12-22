@@ -10,8 +10,6 @@
 
 int _strcmp(char *s1, char *s2)
 {
-	int sum1 = 0;
-	int sum2 = 0;
 	int i = 0;
 	int j = 0;
 
