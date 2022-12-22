@@ -15,7 +15,7 @@ int _strcmp(char *s1, char *s2)
 	int i;
 
 	for (i = 0; s1[i] != '\0'; i++)
-		sum2 += s1[i];
+		sum1 += s1[i];
 
 	for (i = 0; s1[i] != '\0'; i++)
 		sum2 += s2[i];
