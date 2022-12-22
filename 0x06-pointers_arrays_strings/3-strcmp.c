@@ -14,10 +14,10 @@ int _strcmp(char *s1, char *s2)
 	int sum2 = 0;
 	int i;
 
-	while (i = 0; s1[i] != '\0'; i++)
+	for (i = 0; s1[i] != '\0'; i++)
 		sum2 += s1[i];
 
-	while (i = 0; s1[i] != '\0'; i++)
+	for (i = 0; s1[i] != '\0'; i++)
 		sum2 += s2[i];
 	return (sum1 - sum2);
 }
