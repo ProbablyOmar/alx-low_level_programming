@@ -1,6 +1,6 @@
 /**
  * _strcmp - Copies one string to another
- * @s2: string 1
+ * @s1: string 1
  * @s2: string 2
  *
  * Return: int Positive if bigger
