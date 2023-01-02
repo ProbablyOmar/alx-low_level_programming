@@ -19,3 +19,10 @@ char *_memset(char *s, char b, unsigned int n)
 	}
 	return (x);
 }
+
+int main(void)
+{
+	char x;
+	_memset(&X, 'm', 5);
+	return (0);
+}
