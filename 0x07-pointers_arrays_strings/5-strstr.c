@@ -3,7 +3,7 @@
  * @needle: substring
  * @haystack: String to be evauluated
  *
- * Return: Address of first occurace of substring
+ * Return: Address of first occurance of substring
  */
 
 char *_strstr(char *haystack, char *needle)
