@@ -23,6 +23,6 @@ char *_memset(char *s, char b, unsigned int n)
 int main(void)
 {
 	char x;
-	_memset(&X, 'm', 5);
+	_memset(&x, 'm', 5);
 	return (0);
 }
