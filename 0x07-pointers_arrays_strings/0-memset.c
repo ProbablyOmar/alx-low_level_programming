@@ -1,5 +1,5 @@
 /**
- * memset - Reserves an area in the memory
+ * _memset - Reserves an area in the memory
  * @s: Address to be reserved
  * @b: Constant to be filled by
  * @n: Number of bytes to reserve
@@ -18,11 +18,4 @@ char *_memset(char *s, char b, unsigned int n)
 		s++;
 	}
 	return (x);
-}
-
-int main(void)
-{
-	char x;
-	_memset(&x, 'm', 5);
-	return (0);
 }
