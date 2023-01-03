@@ -12,15 +12,16 @@ void print_chessboard(char (*a)[8])
 {
 	int i;
 	int j;
-	int empty_row_flag = 1;
+	int empty_row_flag;
 
 	for (i = 0; i < 8; i++)
 	{
+		empty_row_flag = 1;
 		for (j = 0; j < 8; j++)
 		{
 			if (!empty_row_flag)
 				putchar(a[i][j]);
-			if ((a[i][j] != ' ' && a[i][j] != '\0') && empty_row_flag)
+			if (a[i][j] != ' ' && empty_row_flag)
 			{
 				empty_row_flag = 0;
 				j = 0;
