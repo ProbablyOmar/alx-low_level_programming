@@ -20,7 +20,7 @@ void print_chessboard(char (*a)[8])
 		{
 			if (!empty_row_flag)
 				putchar(a[i][j]);
-			if ((a[i][j] != ' ' || a[i][j] != '\0') && empty_row_flag)
+			if ((a[i][j] != ' ' && a[i][j] != '\0') && empty_row_flag)
 			{
 				empty_row_flag = 0;
 				j = 0;
