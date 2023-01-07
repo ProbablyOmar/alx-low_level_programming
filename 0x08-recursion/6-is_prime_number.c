@@ -6,9 +6,11 @@
  */
 int checker(int n, int base)
 {
-	if (base % n == 0 && n != base)
+	if (n == base)
 		return (1);
-	if (n >= base)
+	else if (base % n == 0)
+		return (0);
+	else if (n > base)
 		return (0);
 	return (checker(n + 1, base));
 }
@@ -19,5 +21,5 @@ int checker(int n, int base)
  */
 int is_prime_number(int n)
 {
-	return (checker(2, n));
+	return (checker(1, n));
 }
