@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts_rev_recursion - Prints a string in reverse recursively
+ * recursion - Prints a string in reverse recursively
  * @s: Character Pointer
  *
  * Return: Void
@@ -15,11 +15,17 @@ void recursion(char *s)
 	}
 	else
 	{
-		_puts_rev_recursion(++s);
+		recursion(++s);
 		_putchar(*s);
 	}
 }
 
+/**
+ * _puts_rev_recursion - Prints a string in reverse recursively
+ * @s: Character Pointer
+ *
+ * Return: Void
+ */
 void _puts_rev_recursion(char *s)
 {
 	recursion(s);
