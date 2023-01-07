@@ -21,12 +21,12 @@ void recursion(char *s)
 }
 
 /**
- * _puts_rev_recursion - Prints a string in reverse recursively
+ * _print_rev_recursion - Prints a string in reverse recursively
  * @s: Character Pointer
  *
  * Return: Void
  */
-void _puts_rev_recursion(char *s)
+void _print_rev_recursion(char *s)
 {
 	recursion(s);
 	_putchar('\n');
