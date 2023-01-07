@@ -1,5 +1,5 @@
 /**
- * factorial- Returns factorial of a number
+ * _pow_recursion- Returns x power y
  * @x: number
  * @y: power to be raised to
  *
