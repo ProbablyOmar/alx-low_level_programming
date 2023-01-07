@@ -7,7 +7,7 @@
  * Return: Void
  */
 
-void _puts_rev_recursion(char *s)
+void recursion(char *s)
 {
 	if (*s == '\0')
 	{
@@ -18,4 +18,10 @@ void _puts_rev_recursion(char *s)
 		_puts_rev_recursion(++s);
 		_putchar(*s);
 	}
+}
+
+void _puts_rev_recursion(char *s)
+{
+	recursion(s);
+	_putchar('\n');
 }
